@@ -27,14 +27,9 @@ namespace TicketManagment.API.Controllers
         public void AddTicket([FromBody]TicketRequest request)
         {
 
-
             TicketCompaimentService service = new TicketCompaimentService();
             
-            service.InertUser(request);
-            
-            
-            
-            
+            service.InertUser(request);         
         }
 
 
