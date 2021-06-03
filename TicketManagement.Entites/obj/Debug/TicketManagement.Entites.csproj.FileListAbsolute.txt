@@ -1,0 +1,6 @@
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Entites\bin\Debug\TicketManagement.Entites.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Entites\bin\Debug\TicketManagement.Entites.pdb
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Entites\obj\Debug\TicketManagement.Entites.csproj.CoreCompileInputs.cache
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Entites\obj\Debug\TicketManagement.Entites.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Entites\obj\Debug\TicketManagement.Entites.pdb
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Entites\obj\Debug\TicketManagement.Entites.csprojAssemblyReference.cache

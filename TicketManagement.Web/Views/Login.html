@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title> Ticket Management </title>
+    <link href="/Css/StyleSheet1.css" rel="stylesheet" type="text/css" media="all" />
+
+    <!-- -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function (c) {
+            $('.alert-close').on('click', function (c) {
+                $('.message').fadeOut('slow', function (c) {
+                    $('.message').remove();
+                });
+            });
+
+        
+
+            $('#submitLoginForm').on('click', function (c) {
+                debugger
+                var userName = $("#userName").val();
+                var password = $("#password").val();
+               
+                var url = "https://localhost:44351/api/user/login";
+
+
+                var values = $('form').serialize();
+
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: values,
+                    success: function () {
+                        debugger
+                        alert("Success");
+                        if (response == false) {
+                            alert("invalid login");
+                        } else {
+
+                            window.location.replace("layoutpage.html");
+                        }
+                    }, error: function (xhr) {
+                        debugger
+                        //Do Something to handle error
+                    }
+                });
+
+                $.ajax({
+                    url: url,
+                    type: "get", //send it through get method
+                    success: function (response) {
+                        //Do Something
+                        debugger
+                        if (response == false) {
+                            alert("invalid login");
+                        } else {
+
+                            window.location.replace("layoutpage.html");
+                        }
+                    },done: function(response) {
+                        debugger
+                    },
+                    error: function (xhr) {
+                        debugger
+                        //Do Something to handle error
+                    }
+                });
+            });
+
+
+        });
+    </script>
+
+
+
+</head>
+<body>
+
+
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- contact-form -->
+    <div class="message warning">
+        <div class="inset">
+            <div class="login-head">
+                <h1>Login Form</h1>
+                <div class="alert-close"> </div>
+            </div>
+            <form>
+                <li>
+                    <input type="text" class="text" id="userName" placeholder="User Name" name="UserName">
+                </li>
+                <div class="clear"> </div>
+                <li>
+                    <input type="password" id="password" placeholder="Password" name="UserPassword">
+                </li>
+                <div class="clear"> </div>
+                <div class="submit">
+                    <input type="submit" value="Sign in" id="submitLoginForm">
+                    <div class="clear">  </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    </div>
+    <div class="clear"> </div>
+
+
+</body>
+</html>

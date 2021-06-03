@@ -1,0 +1,11 @@
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\bin\Debug\TicketManagement.Service.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\bin\Debug\TicketManagement.Service.pdb
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\bin\Debug\TicketManagement.DataAccess.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\bin\Debug\TicketManagement.Entites.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\bin\Debug\TicketManagement.DataAccess.pdb
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\bin\Debug\TicketManagement.Entites.pdb
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\obj\Debug\TicketManagement.Service.csprojAssemblyReference.cache
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\obj\Debug\TicketManagement.Service.csproj.CoreCompileInputs.cache
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\obj\Debug\TicketManagement.Service.csproj.CopyComplete
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\obj\Debug\TicketManagement.Service.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.Service\obj\Debug\TicketManagement.Service.pdb

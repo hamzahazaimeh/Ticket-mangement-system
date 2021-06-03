@@ -1,0 +1,13 @@
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\bin\Debug\netcoreapp3.1\TicketManagement.exe
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\bin\Debug\netcoreapp3.1\TicketManagement.deps.json
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\bin\Debug\netcoreapp3.1\TicketManagement.runtimeconfig.json
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\bin\Debug\netcoreapp3.1\TicketManagement.runtimeconfig.dev.json
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\bin\Debug\netcoreapp3.1\TicketManagement.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\bin\Debug\netcoreapp3.1\TicketManagement.pdb
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\obj\Debug\netcoreapp3.1\TicketManagement.csprojAssemblyReference.cache
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\obj\Debug\netcoreapp3.1\TicketManagement.AssemblyInfoInputs.cache
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\obj\Debug\netcoreapp3.1\TicketManagement.AssemblyInfo.cs
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\obj\Debug\netcoreapp3.1\TicketManagement.csproj.CoreCompileInputs.cache
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\obj\Debug\netcoreapp3.1\TicketManagement.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\obj\Debug\netcoreapp3.1\TicketManagement.pdb
+C:\Users\andallah\Desktop\Ticket mangement system\TicketComplaimentUser\obj\Debug\netcoreapp3.1\TicketManagement.genruntimeconfig.cache

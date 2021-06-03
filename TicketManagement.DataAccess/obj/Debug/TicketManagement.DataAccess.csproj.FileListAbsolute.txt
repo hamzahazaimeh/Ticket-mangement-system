@@ -1,0 +1,11 @@
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\bin\Debug\TicketManagement.DataAccess.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\bin\Debug\TicketManagement.DataAccess.pdb
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\bin\Debug\System.Data.Common.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\bin\Debug\System.Data.SqlClient.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\bin\Debug\TicketManagement.Entites.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\bin\Debug\TicketManagement.Entites.pdb
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\obj\Debug\TicketManagement.DataAccess.csprojAssemblyReference.cache
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\obj\Debug\TicketManagement.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\obj\Debug\TicketManagement.DataAccess.csproj.CopyComplete
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\obj\Debug\TicketManagement.DataAccess.dll
+C:\Users\andallah\Desktop\Ticket mangement system\TicketManagement.DataAccess\obj\Debug\TicketManagement.DataAccess.pdb

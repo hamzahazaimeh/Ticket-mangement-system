@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+    <script>
+        
+        $(document).ready(function () {
+            $.ajax({
+                type: 'Get',
+                dataType: 'json',
+                url: "https://localhost:44351/api/TicketComplaiment/GetAllTickets",
+                data: '',
+                success: function (tickets) {
+                    debugger
+                    // select table
+                    var table = $('#tblTicket');
+                    table.html('');
+
+                    // create table header
+                    table.append('<thead>');
+                    table.append('<th>Name</th>');
+                    table.append('<th>Description</th>');
+                    table.append('</thead>');
+
+                    // create table body
+                    table.append('<tbody>');
+                    tableBody = $("#tblTicket tbody");
+
+                    $.each(tickets, function (i, item) {
+                        tableBody.append('<tr>');
+                        //add the data in the table raw from url
+                        tableBody.append('<td>' + item.Name + '</td>');
+                        tableBody.append('<td>' + item.Description + '</td>');
+                        tableBody.append('</tr>');
+
+                    })
+                    table.append('</tbody>');
+                    table.append('</table>');
+
+
+                }
+            });
+
+        });
+
+
+
+
+
+
+
+    </script>
+    <style>
+        #tblTicket {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #tblTicket td, #tblTicket th {
+                border: 1px solid #ddd;
+                padding: 8px;
+            }
+
+            #tblTicket tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            #tblTicket tr:hover {
+                background-color: #ddd;
+            }
+
+            #tblTicket th {
+                padding-top: 12px;
+                padding-bottom: 12px;
+                text-align: left;
+                background-color: #6D4A70;
+                color: white;
+            }
+    </style>
+
+</head>
+<body>
+   
+
+        <table class="table" id="tblTicket">
+            
+
+        </table>
+           
+</body>
+</html>
